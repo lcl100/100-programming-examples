@@ -39,6 +39,43 @@ int main() {
 }
 ```
 
+还可以利用指针来完成，主要是练习下指针的使用：
+```c
+#include <stdio.h>
+
+void swap(int* a, int* b) {
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int x, y, z;
+    int* a;
+    int* b;
+    int* c;
+
+    printf("请输入三个整数：\n");
+    scanf("%d%d%d", &x, &y, &z);
+    a = &x;
+    b = &y;
+    c = &z;
+
+    if (x > y) {
+        swap(a, b);
+    }
+    if (x > z) {
+        swap(a, c);
+    }
+    if (y > z) {
+        swap(b, c);
+    }
+
+    printf("按从小到大顺序：%d %d %d", *a, *b, *c);
+}
+```
+
 代码执行结果如下：
 
 ```text
