@@ -50,6 +50,40 @@ int main() {
 }
 ```
 
+还可以转换成字符串利用指针来完成：
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * 判断一个5位数的数字字符串是否是回文数字
+ * @param num 5位数的数字字符串
+ * @return 如果是回文数字符串则返回1；如果不是则返回0
+ */
+int palindrome(char* num) {
+    for (int i = 0; i < 5 / 2; i++) {
+        // 比较字符是否相等
+        if (*(num + i) != *(num + 5 - i - 1)) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+int main() {
+    int num;
+    printf("请输入一个5位数：\n");
+    scanf("%d", &num);
+
+    // 定义一个字符串
+    char str[5];
+    // itoa()是一个函数，用来将整数转换成字符串，第三个参数表示进制
+    itoa(num, str, 10);
+
+    printf("%d", palindrome(str));
+}
+```
+
 代码执行结果如下：
 
 ```text
