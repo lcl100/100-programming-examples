@@ -206,3 +206,7 @@ number  name  math  chinese  english  average
 ## 题目115
 
 从键盘输入10个整数，求奇数之和以及偶数之和。
+
+## 题目116
+
+从键盘输入一个 0~6 的整数，转换成星期输出。
