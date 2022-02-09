@@ -186,3 +186,7 @@ number  name  math  chinese  english  average
 ## 题目110
 
 计算 3 到 100 之间所有素数的平方根之和。
+
+## 题目111
+
+求一个任意边长的矩形面积。矩形的长和宽通过键盘输入。
