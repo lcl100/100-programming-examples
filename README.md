@@ -198,3 +198,7 @@ number  name  math  chinese  english  average
 ## 题目113
 
 比较两个数的大小。如果 x 大于 y，则输出：x>y，否则输出：x<y。
+
+## 题目114
+
+求自然数 1~10 之和。
