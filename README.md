@@ -194,3 +194,7 @@ number  name  math  chinese  english  average
 ## 题目112
 
 求一个任意半径的圆的面积和周长。半径通过键盘输入。
+
+## 题目113
+
+比较两个数的大小。如果 x 大于 y，则输出：x>y，否则输出：x<y。
