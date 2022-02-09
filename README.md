@@ -202,3 +202,7 @@ number  name  math  chinese  english  average
 ## 题目114
 
 求自然数 1~10 之和。
+
+## 题目115
+
+从键盘输入10个整数，求奇数之和以及偶数之和。
