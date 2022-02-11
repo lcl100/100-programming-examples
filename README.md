@@ -210,3 +210,7 @@ number  name  math  chinese  english  average
 ## 题目116
 
 从键盘输入一个 0~6 的整数，转换成星期输出。
+
+## 题目117
+
+从键盘输入一个字符串，再输入两个正整数m和n，输出字符串中从 m 开始，连续 n 个字符。例如，输入`abcdefg, 2, 3`则输出`bcd`。
