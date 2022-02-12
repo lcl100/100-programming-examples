@@ -51,6 +51,7 @@ int main() {
             count++;
         }
     }
+    // 打印结果
     printf("%s 在 %s 中出现了 %d 次", substr, str, count);
 }
 ```
