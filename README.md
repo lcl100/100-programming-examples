@@ -258,3 +258,7 @@ number  name  math  chinese  english  average
 ## 题目128
 
 编写一个函数，求一维数组的平均值和最大值。
+
+## 题目129
+
+编写一个函数，求 N 阶二维矩阵的主和辅对角线元素之和。
