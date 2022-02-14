@@ -16,7 +16,7 @@
 
 ```c
 #include <stdio.h>
-#include <intrin.h>
+#include <string.h>
 
 /**
  * 利用递归逆序打印字符串
